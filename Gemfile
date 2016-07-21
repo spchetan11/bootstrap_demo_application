@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+#heroku web server
+gem 'puma'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -54,8 +55,7 @@ group :development do
 
  group :production do
    ruby '2.2.3'
-   #heroku web server
-   gem 'puma'
+  
 
    gem 'pg', '~> 0.18.4'
 
