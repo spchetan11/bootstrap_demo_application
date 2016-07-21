@@ -9,7 +9,7 @@ gem 'rails', '4.2.6'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.5.1'
 #gem 'autoprefixer-rails', '~> 6.3', '>= 6.3.7'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.4'
 gem "font-awesome-rails"
 gem 'sprockets', '~> 3.0'
 # Use Uglifier as compressor for JavaScript assets
