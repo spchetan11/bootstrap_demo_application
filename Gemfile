@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.3'
 #heroku web server
 gem 'puma'
 
@@ -8,7 +8,7 @@ gem 'rails', '4.2.6'
 
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.5.1'
-gem 'autoprefixer-rails', '~> 6.3', '>= 6.3.7'
+#gem 'autoprefixer-rails', '~> 6.3', '>= 6.3.7'
 gem 'sass-rails', '~> 5.0'
 gem "font-awesome-rails"
 gem 'sprockets', '~> 3.0'
@@ -55,9 +55,8 @@ group :development do
 
 
  group :production do
-   ruby '2.2.3'
+   
   
-
    gem 'pg', '~> 0.18.4'
 
    gem 'yui-compressor', '~> 0.12.0'
