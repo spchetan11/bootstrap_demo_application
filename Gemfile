@@ -53,7 +53,7 @@ group :development do
 
 
  group :production do
-
+   ruby '2.2.4'
    #heroku web server
    gem 'puma'
 
